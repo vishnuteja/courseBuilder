@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block top_content %}
+{% endblock %}
+
+{% block main_content %}
+
+<div class="gcb-cols">
+  <div class="gcb-col-1">
+  </div>
+  <div class="gcb-col-7 gcb-aside gcb-button-box">
+
+    <p class="top_content">
+      <!-- Displays the student's score. -->
+      {% if assessment == 'postcourse_pass' or assessment == 'postcourse_fail' %}
+        {{course_info.assessment_confirmations.postcourse_header % student_score}}
+      {% endif %}
+
+      <!-- Displays further confirmation text relevant to the specific assessment. -->
+      {{course_info.assessment_confirmations[assessment]}}
+    </p>
+
+    <p>
+      <a class="gcb-button" href="course">
+        {% trans %} Back to Course page {% endtrans %}
+      </a>
+    </p>
+
+  </div>
+</div>
+
+{% endblock %}

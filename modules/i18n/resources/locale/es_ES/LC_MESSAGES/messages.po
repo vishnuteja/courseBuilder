@@ -1,0 +1,350 @@
+# Spanish (Spain) translations for PROJECT.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-01-23 17:20-0800\n"
+"PO-Revision-Date: 2012-12-14 13:26-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es_ES <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: experimental/coursebuilder/views/activity.html:4
+#: experimental/coursebuilder/views/activity.html:34
+#: experimental/coursebuilder/views/activity.html:50
+#: experimental/coursebuilder/views/activity.html:53
+#: experimental/coursebuilder/views/unit.html:38
+msgid " Activity "
+msgstr " Actividad "
+
+#: experimental/coursebuilder/views/activity.html:23
+#: experimental/coursebuilder/views/base.html:15
+#: experimental/coursebuilder/views/base.html:111
+#: experimental/coursebuilder/views/base_registration.html:14
+#: experimental/coursebuilder/views/unit.html:14
+msgid " Course "
+msgstr " Curso "
+
+#: experimental/coursebuilder/views/activity.html:26
+#: experimental/coursebuilder/views/unit.html:16
+msgid " Unit "
+msgstr " Unidad "
+
+#: experimental/coursebuilder/views/activity.html:31
+#: experimental/coursebuilder/views/unit.html:17
+msgid " Lesson "
+msgstr " Lección "
+
+#: experimental/coursebuilder/views/activity.html:38
+#: experimental/coursebuilder/views/course.html:34
+#: experimental/coursebuilder/views/course.html:51
+#: experimental/coursebuilder/views/preview.html:39
+#: experimental/coursebuilder/views/unit.html:21
+#, python-format
+msgid "Unit %(id)s - %(title)s"
+msgstr " Unidad %(id)s - %(title)s"
+
+#: experimental/coursebuilder/views/activity.html:78
+msgid " Slides "
+msgstr " Diapositivas "
+
+#: experimental/coursebuilder/views/activity.html:82
+#: experimental/coursebuilder/views/unit.html:68
+msgid " Text Version "
+msgstr " Versión Texto "
+
+#: experimental/coursebuilder/views/activity.html:96
+#: experimental/coursebuilder/views/unit.html:85
+msgid " Previous Page "
+msgstr " Página Anterior "
+
+#: experimental/coursebuilder/views/activity.html:101
+#: experimental/coursebuilder/views/unit.html:92
+msgid " Next Page "
+msgstr " Página siguiente "
+
+#: experimental/coursebuilder/views/activity.html:103
+#: experimental/coursebuilder/views/unit.html:96
+msgid " End "
+msgstr " Final "
+
+#: experimental/coursebuilder/views/announcements.html:4
+#: experimental/coursebuilder/views/base.html:106
+#: experimental/coursebuilder/views/base_registration.html:10
+msgid " Announcements "
+msgstr " Anuncios "
+
+#: experimental/coursebuilder/views/announcements.html:18
+msgid " Add New "
+msgstr " Añadir Nuevo "
+
+#: experimental/coursebuilder/views/announcements.html:23
+msgid " No announcements yet. "
+msgstr " No hay anuncios aún. "
+
+#: experimental/coursebuilder/views/announcements.html:32
+msgid " Delete "
+msgstr " Borrar "
+
+#: experimental/coursebuilder/views/announcements.html:38
+msgid " Edit "
+msgstr " Editar "
+
+#: experimental/coursebuilder/views/announcements.html:43
+msgid " (Draft) "
+msgstr " (Borrador) "
+
+#: experimental/coursebuilder/views/assessment.html:4
+msgid " Assessment "
+msgstr " Puntuaciones de la evaluación "
+
+#: experimental/coursebuilder/views/base.html:38
+msgid " Check Answer "
+msgstr " Compruebe Respuesta "
+
+#: experimental/coursebuilder/views/base.html:39
+msgid " Check Answers "
+msgstr " Compruebe Respuestas "
+
+#: experimental/coursebuilder/views/base.html:40
+msgid " Skip and Show Answer "
+msgstr " Saltar y Mostrar Respuesta "
+
+#: experimental/coursebuilder/views/base.html:41
+msgid " Save Answers "
+msgstr " Guardar Respuestas "
+
+#: experimental/coursebuilder/views/base.html:42
+msgid " Please click one of the buttons for your answer. "
+msgstr " Por favor, haga clic en uno de los botones de su respuesta. "
+
+#: experimental/coursebuilder/views/base.html:43
+msgid " All your answers are correct! "
+msgstr " Todas sus respuestas son correctas! "
+
+#: experimental/coursebuilder/views/base.html:44
+msgid " Number of questions you answered correctly "
+msgstr " Número de preguntas que contestó correctamente "
+
+#: experimental/coursebuilder/views/base.html:45
+msgid " You received a score on this assessment of "
+msgstr " Usted recibió un puntaje en esta evaluación de "
+
+#: experimental/coursebuilder/views/base.html:46
+msgid " Here are lessons you could review to improve your score "
+msgstr " Estas son lecciones que usted podría revisar para mejorar su puntaje "
+
+#: experimental/coursebuilder/views/base.html:48
+msgid ""
+" Congratulations! Press the \\'Save Answers\\' button to submit your "
+"grade. "
+msgstr ""
+" ¡Felicitaciones! Pulse el botón \\'Guardar Respuestas\\' abajo para "
+"enviar su calificación. "
+
+#: experimental/coursebuilder/views/base.html:50
+msgid ""
+" Press the \\'Save Answers\\' button below to save your scores. You can "
+"also edit your answers above before clicking \\'Save Answers\\'. "
+msgstr ""
+" Pulse el botón \\'Guardar Respuestas\\' abajo para guardar su "
+"calificaciones. También puede editar sus respuestas anteriores antes de "
+"hacer clic \\'Guardar Respuestas\\'. "
+
+#: experimental/coursebuilder/views/base.html:87
+msgid " Logout "
+msgstr " Cerrar sesión "
+
+#: experimental/coursebuilder/views/base.html:92
+msgid " Login "
+msgstr " Login "
+
+#: experimental/coursebuilder/views/base.html:117
+#: experimental/coursebuilder/views/forum.html:4
+msgid " Forum "
+msgstr " Foro "
+
+#: experimental/coursebuilder/views/base.html:123
+#: experimental/coursebuilder/views/student_profile.html:4
+msgid " My Profile "
+msgstr "Mi Perfil"
+
+#: experimental/coursebuilder/views/base.html:169
+msgid " Privacy &amp; Terms "
+msgstr " Privacidad y condiciones "
+
+#: experimental/coursebuilder/views/base_registration.html:17
+msgid " Registration "
+msgstr " Registrarse "
+
+#: experimental/coursebuilder/views/confirmation.html:15
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Unfortunately, the course"
+" is now full, so registration has closed."
+msgstr ""
+" Gracias por registrarse para %(course_title)s. Por desgracia, el curso "
+"está completo, por lo que el registro se ha cerrado. "
+
+#: experimental/coursebuilder/views/confirmation.html:20
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Stay tuned for more "
+"information about the course which will start on %(start_date)s."
+msgstr ""
+" Gracias por registrarse para %(course_title)s. Permanezca atento para \""
+"\n"
+"\"más información sobre el curso que se iniciará el %(start_date)s."
+
+#: experimental/coursebuilder/views/confirmation.html:27
+msgid ""
+" To participate in community discussions about this course, register for "
+"the web forum at "
+msgstr ""
+" Para participar en las discusiones de la comunidad sobre este curso, "
+"registrarse para el foro de la web en "
+
+#: experimental/coursebuilder/views/confirmation.html:31
+msgid " On that page, click on <b>Join Group</b> "
+msgstr " En esa página, haga clic en <b>Join Group</b> "
+
+#: experimental/coursebuilder/views/confirmation.html:37
+msgid ""
+" To receive announcements about this course, register for the "
+"announcements-only email list at "
+msgstr ""
+" Para recibir anuncios sobre este curso, inscribirse en la lista de "
+"correo de sólo anuncios "
+
+#: experimental/coursebuilder/views/confirmation.html:41
+msgid ""
+" On that page, click on <b>Join Group</b>. In the dialog box that "
+"appears, under <b>How do you want to read this group?</b>, choose "
+"<b>Email</b>. "
+msgstr ""
+" En esa página, haga clic en <b>Join Group</b>. En el cuadro de diálogo "
+"que aparece, bajo <b>How do you want to read this group?</b>, elija "
+"<b>Email</b>. "
+
+#: experimental/coursebuilder/views/course.html:20
+#: experimental/coursebuilder/views/preview.html:28
+msgid " Schedule "
+msgstr " Programa "
+
+#: experimental/coursebuilder/views/preview.html:12
+msgid " Register "
+msgstr " Registrarse "
+
+#: experimental/coursebuilder/views/register.html:22
+msgid " What is your name? "
+msgstr " ¿Cuál es su nombre? "
+
+#: experimental/coursebuilder/views/register.html:31
+msgid " Enroll "
+msgstr " Inscribirse "
+
+#: experimental/coursebuilder/views/student_profile.html:15
+msgid " Student Profile for "
+msgstr " Perfil del Estudiante para "
+
+#: experimental/coursebuilder/views/student_profile.html:26
+msgid " Currently enrolled "
+msgstr " Inscripto actualmente "
+
+#: experimental/coursebuilder/views/student_profile.html:30
+msgid " Date enrolled "
+msgstr " Fecha de inscripción "
+
+#: experimental/coursebuilder/views/student_profile.html:34
+msgid " Email "
+msgstr " Correo electrónico "
+
+#: experimental/coursebuilder/views/student_profile.html:38
+msgid " Name "
+msgstr " Nombre "
+
+#: experimental/coursebuilder/views/student_profile.html:43
+msgid " Assessment scores "
+msgstr " Puntuaciones de la evaluación "
+
+#: experimental/coursebuilder/views/student_profile.html:46
+msgid " Pre-class "
+msgstr " Antes de la clase "
+
+#: experimental/coursebuilder/views/student_profile.html:49
+msgid " Completed "
+msgstr " Terminado "
+
+#: experimental/coursebuilder/views/student_profile.html:54
+msgid " Mid-class "
+msgstr " Mediados de la clase "
+
+#: experimental/coursebuilder/views/student_profile.html:62
+msgid " Post-class "
+msgstr " Luego de la clase "
+
+#: experimental/coursebuilder/views/student_profile.html:70
+msgid " Overall course score "
+msgstr " Puntaje total del curso "
+
+#: experimental/coursebuilder/views/student_profile.html:81
+msgid " New Name "
+msgstr " Nuevo Nombre "
+
+#: experimental/coursebuilder/views/student_profile.html:88
+msgid " Save Changes "
+msgstr " Guardar Cambios "
+
+#: experimental/coursebuilder/views/student_profile.html:91
+msgid " Cancel "
+msgstr " Cancelar "
+
+#: experimental/coursebuilder/views/student_profile.html:96
+msgid " To leave the course permanently, click on Unenroll "
+msgstr ""
+" Para salir del curso permanentemente, haga clic en Cancelar la "
+"Inscripción "
+
+#: experimental/coursebuilder/views/student_profile.html:99
+msgid " Unenroll "
+msgstr " Cancelar la Inscripción "
+
+#: experimental/coursebuilder/views/summary.html:21
+#: experimental/coursebuilder/views/unit.html:75
+msgid " YouTube Video Player "
+msgstr " YouTube reproductor de video "
+
+#: experimental/coursebuilder/views/test_confirmation.html:25
+msgid " Back to Course page "
+msgstr " Volver a la página del curso "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:12
+msgid " You have been unenrolled from "
+msgstr " Se ha cancelado su Inscripción a "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:17
+msgid " OK "
+msgstr " Aceptar "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:12
+#, fuzzy
+msgid " Are you sure you want to unenroll from "
+msgstr " ¿Está seguro que desea cancelar su inscripción de "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:19
+msgid " Yes "
+msgstr " Sí "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:22
+msgid " No "
+msgstr " No "
+

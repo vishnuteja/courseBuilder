@@ -1,0 +1,354 @@
+# Russian (Russia) translations for PROJECT.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-01-23 17:20-0800\n"
+"PO-Revision-Date: 2012-12-12 15:10-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru_RU <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: experimental/coursebuilder/views/activity.html:4
+#: experimental/coursebuilder/views/activity.html:34
+#: experimental/coursebuilder/views/activity.html:50
+#: experimental/coursebuilder/views/activity.html:53
+#: experimental/coursebuilder/views/unit.html:38
+msgid " Activity "
+msgstr " Упражнение "
+
+#: experimental/coursebuilder/views/activity.html:23
+#: experimental/coursebuilder/views/base.html:15
+#: experimental/coursebuilder/views/base.html:111
+#: experimental/coursebuilder/views/base_registration.html:14
+#: experimental/coursebuilder/views/unit.html:14
+#, fuzzy
+msgid " Course "
+msgstr " Курс "
+
+#: experimental/coursebuilder/views/activity.html:26
+#: experimental/coursebuilder/views/unit.html:16
+msgid " Unit "
+msgstr " Раздел "
+
+#: experimental/coursebuilder/views/activity.html:31
+#: experimental/coursebuilder/views/unit.html:17
+msgid " Lesson "
+msgstr " Урок "
+
+#: experimental/coursebuilder/views/activity.html:38
+#: experimental/coursebuilder/views/course.html:34
+#: experimental/coursebuilder/views/course.html:51
+#: experimental/coursebuilder/views/preview.html:39
+#: experimental/coursebuilder/views/unit.html:21
+#, python-format
+msgid "Unit %(id)s - %(title)s"
+msgstr "Раздел %(id)s - %(title)s"
+
+#: experimental/coursebuilder/views/activity.html:78
+msgid " Slides "
+msgstr " Слайды "
+
+#: experimental/coursebuilder/views/activity.html:82
+#: experimental/coursebuilder/views/unit.html:68
+msgid " Text Version "
+msgstr " Текстовая Версия "
+
+#: experimental/coursebuilder/views/activity.html:96
+#: experimental/coursebuilder/views/unit.html:85
+msgid " Previous Page "
+msgstr " Предыдущая Cтраница "
+
+#: experimental/coursebuilder/views/activity.html:101
+#: experimental/coursebuilder/views/unit.html:92
+msgid " Next Page "
+msgstr " Следующая Cтраница "
+
+#: experimental/coursebuilder/views/activity.html:103
+#: experimental/coursebuilder/views/unit.html:96
+msgid " End "
+msgstr " Конец "
+
+#: experimental/coursebuilder/views/announcements.html:4
+#: experimental/coursebuilder/views/base.html:106
+#: experimental/coursebuilder/views/base_registration.html:10
+#, fuzzy
+msgid " Announcements "
+msgstr "Объявления"
+
+#: experimental/coursebuilder/views/announcements.html:18
+msgid " Add New "
+msgstr " Добавить "
+
+#: experimental/coursebuilder/views/announcements.html:23
+msgid " No announcements yet. "
+msgstr " Oбъявлений пока нет. "
+
+#: experimental/coursebuilder/views/announcements.html:32
+msgid " Delete "
+msgstr " Удалить "
+
+#: experimental/coursebuilder/views/announcements.html:38
+msgid " Edit "
+msgstr " Изменить "
+
+#: experimental/coursebuilder/views/announcements.html:43
+msgid " (Draft) "
+msgstr " (Черновик) "
+
+#: experimental/coursebuilder/views/assessment.html:4
+#, fuzzy
+msgid " Assessment "
+msgstr " Результаты экзаменов "
+
+#: experimental/coursebuilder/views/base.html:38
+msgid " Check Answer "
+msgstr " Проверьте Ответ "
+
+#: experimental/coursebuilder/views/base.html:39
+msgid " Check Answers "
+msgstr " Проверьте Ответы "
+
+#: experimental/coursebuilder/views/base.html:40
+msgid " Skip and Show Answer "
+msgstr " Пропустить и показать ответ "
+
+#: experimental/coursebuilder/views/base.html:41
+msgid " Save Answers "
+msgstr " Сохранить ответы "
+
+#: experimental/coursebuilder/views/base.html:42
+msgid " Please click one of the buttons for your answer. "
+msgstr " Пожалуйста, нажмите одну из кнопок за ваш ответ. "
+
+#: experimental/coursebuilder/views/base.html:43
+msgid " All your answers are correct! "
+msgstr " Все ваши ответы правильные! "
+
+#: experimental/coursebuilder/views/base.html:44
+msgid " Number of questions you answered correctly "
+msgstr " Количество вопросов вы ответили правильно "
+
+#: experimental/coursebuilder/views/base.html:45
+msgid " You received a score on this assessment of "
+msgstr " Оценка которую вы получили "
+
+#: experimental/coursebuilder/views/base.html:46
+msgid " Here are lessons you could review to improve your score "
+msgstr " Вот уроки, которые вы могли бы посмотреть чтобы улучшить ваш счет "
+
+#: experimental/coursebuilder/views/base.html:48
+msgid ""
+" Congratulations! Press the \\'Save Answers\\' button to submit your "
+"grade. "
+msgstr ""
+" Поздравляем! Нажмите кнопку \\'Сохранить ответы\\' чтобы сохранить свои "
+"результаты. "
+
+#: experimental/coursebuilder/views/base.html:50
+msgid ""
+" Press the \\'Save Answers\\' button below to save your scores. You can "
+"also edit your answers above before clicking \\'Save Answers\\'. "
+msgstr ""
+" Нажмите кнопку, кнопка \\'Сохранить ответы\\' ниже, чтобы сохранить свои"
+" результаты. Вы также можете редактировать Ваши ответы выше, прежде чем "
+"нажать \\'Сохранить ответы\\'. "
+
+#: experimental/coursebuilder/views/base.html:87
+#, fuzzy
+msgid " Logout "
+msgstr " Выход "
+
+#: experimental/coursebuilder/views/base.html:92
+msgid " Login "
+msgstr " Вход "
+
+#: experimental/coursebuilder/views/base.html:117
+#: experimental/coursebuilder/views/forum.html:4
+#, fuzzy
+msgid " Forum "
+msgstr " Форум "
+
+#: experimental/coursebuilder/views/base.html:123
+#: experimental/coursebuilder/views/student_profile.html:4
+#, fuzzy
+msgid " My Profile "
+msgstr " Учетная Запись "
+
+#: experimental/coursebuilder/views/base.html:169
+#, fuzzy
+msgid " Privacy &amp; Terms "
+msgstr "Конфиденциальность и условия обслуживания"
+
+#: experimental/coursebuilder/views/base_registration.html:17
+msgid " Registration "
+msgstr " Регистрация "
+
+#: experimental/coursebuilder/views/confirmation.html:15
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Unfortunately, the course"
+" is now full, so registration has closed."
+msgstr ""
+"Спасибо за регистрацию на %(course_title)s. К сожалению курс "
+"полностью заполнен и регистрация закрыта."
+
+#: experimental/coursebuilder/views/confirmation.html:20
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Stay tuned for more "
+"information about the course which will start on %(start_date)s."
+msgstr ""
+"Спасибо за регистрацию на %(course_title)s. Возвращайтесь за получения "
+"дополнительной информации о курсе, который начнется %(start_date)s."
+
+#: experimental/coursebuilder/views/confirmation.html:27
+msgid ""
+" To participate in community discussions about this course, register for "
+"the web forum at "
+msgstr ""
+"Для участия в общественной дискуссии о этом курсе зарегистрируйтесь на "
+"веб-форуме по адрессу "
+
+#: experimental/coursebuilder/views/confirmation.html:31
+msgid " On that page, click on <b>Join Group</b> "
+msgstr " На той странице нажмите <b>Вступить</b> "
+
+#: experimental/coursebuilder/views/confirmation.html:37
+msgid ""
+" To receive announcements about this course, register for the "
+"announcements-only email list at "
+msgstr ""
+"Чтобы получать сообщения об этом курсе "
+"зарегистрируйтесь на электронную рассылку по адрессу "
+
+#: experimental/coursebuilder/views/confirmation.html:41
+msgid ""
+" On that page, click on <b>Join Group</b>. In the dialog box that "
+"appears, under <b>How do you want to read this group?</b>, choose "
+"<b>Email</b>. "
+msgstr ""
+"На той странице нажмите <b>Вступить</b>. В диалоговом окне, которое "
+"появляется с текстом <b>Как вы хотите читать эту группу? </b>, выберите "
+"<b>По электронной почте</b>. "
+
+#: experimental/coursebuilder/views/course.html:20
+#: experimental/coursebuilder/views/preview.html:28
+msgid " Schedule "
+msgstr " Расписание "
+
+#: experimental/coursebuilder/views/preview.html:12
+msgid " Register "
+msgstr " Регистрация "
+
+#: experimental/coursebuilder/views/register.html:22
+msgid " What is your name? "
+msgstr " Как вас зовут? "
+
+#: experimental/coursebuilder/views/register.html:31
+msgid " Enroll "
+msgstr " Зарегистрироваться "
+
+#: experimental/coursebuilder/views/student_profile.html:15
+msgid " Student Profile for "
+msgstr " Учетная запись для "
+
+#: experimental/coursebuilder/views/student_profile.html:26
+msgid " Currently enrolled "
+msgstr " В настоящее время зачислен "
+
+#: experimental/coursebuilder/views/student_profile.html:30
+msgid " Date enrolled "
+msgstr " Дата зачисления "
+
+#: experimental/coursebuilder/views/student_profile.html:34
+msgid " Email "
+msgstr " Электронная почта "
+
+#: experimental/coursebuilder/views/student_profile.html:38
+msgid " Name "
+msgstr " Имя "
+
+#: experimental/coursebuilder/views/student_profile.html:43
+msgid " Assessment scores "
+msgstr " Результаты экзаменов "
+
+#: experimental/coursebuilder/views/student_profile.html:46
+msgid " Pre-class "
+msgstr " Предварительный "
+
+#: experimental/coursebuilder/views/student_profile.html:49
+msgid " Completed "
+msgstr " Закончен "
+
+#: experimental/coursebuilder/views/student_profile.html:54
+msgid " Mid-class "
+msgstr " Промежуточный "
+
+#: experimental/coursebuilder/views/student_profile.html:62
+msgid " Post-class "
+msgstr " Окончательный "
+
+#: experimental/coursebuilder/views/student_profile.html:70
+msgid " Overall course score "
+msgstr " Общая оценка курса "
+
+#: experimental/coursebuilder/views/student_profile.html:81
+msgid " New Name "
+msgstr " Новое имя "
+
+#: experimental/coursebuilder/views/student_profile.html:88
+msgid " Save Changes "
+msgstr " Сохранить изменения "
+
+#: experimental/coursebuilder/views/student_profile.html:91
+msgid " Cancel "
+msgstr " Отмена "
+
+#: experimental/coursebuilder/views/student_profile.html:96
+msgid " To leave the course permanently, click on Unenroll "
+msgstr " Чтобы отменить регистрацию на курс, нажмите Отменить регистрацию"
+
+#: experimental/coursebuilder/views/student_profile.html:99
+msgid " Unenroll "
+msgstr " Отменить регистрацию "
+
+#: experimental/coursebuilder/views/summary.html:21
+#: experimental/coursebuilder/views/unit.html:75
+msgid " YouTube Video Player "
+msgstr " YouTube проигрыватель видео "
+
+#: experimental/coursebuilder/views/test_confirmation.html:25
+msgid " Back to Course page "
+msgstr " Назад к главной странице Курса "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:12
+msgid " You have been unenrolled from "
+msgstr " Регистрация отменена на курс "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:17
+msgid " OK "
+msgstr " Продолжить "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:12
+msgid " Are you sure you want to unenroll from "
+msgstr " Вы уверены, что хотите отменить регистрацию на курс "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:19
+msgid " Yes "
+msgstr " Да "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:22
+msgid " No "
+msgstr " Нет "
+

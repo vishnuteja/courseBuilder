@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block subtitle %}
+  {% trans %} Activity {% endtrans %}
+{% endblock subtitle %}
+
+{% block top_content %}
+{% endblock %}
+
+{% block main_content %}
+
+<script src="assets/js/activity-{{ units.unit_id }}.{{ lesson_id }}.js"></script>
+
+{% if record_events %}
+<script>
+  gcbCanPostEvents = true;
+  eventXsrfToken = '{{ event_xsrf_token }}';
+</script>
+{% endif %}
+
+<div class="gcb-main">
+  <ul class="gcb-breadcrumb">
+    <li><a href="course">{% trans %} Course {% endtrans %}</a></li>
+    <li>
+      <a href="unit?unit={{ units.unit_id }}">
+        {% trans %} Unit {% endtrans %} {{ units.unit_id }}
+      </a>
+    </li>
+    <li>
+      <a href="unit?unit={{ units.unit_id }}&lesson={{ lesson_id }}">
+        {% trans %} Lesson {% endtrans %} {{ lesson_id }}
+      </a>
+    </li>
+    <li>{% trans %} Activity {% endtrans %}</li>
+  </ul>
+  <div>
+    <h1 class="class_header">
+      {{ gettext('Unit %(id)s - %(title)s', id=units.unit_id, title=units.title) }}
+    </h1>
+  </div>
+  <div class="gcb-nav" id="gcb-nav-y">
+    <ul>
+      {% for lesson in lessons %}
+        <li>
+          <a href="unit?unit={{ unit_id }}&lesson={{ lesson.id }}" >{{ unit_id}}.{{ lesson.id }} {{ lesson.title }}</a>
+          {% if lesson.activity %}
+            <ul><li
+              {% if lesson.id == lesson_id %}
+                class="active"
+            > {% trans %} Activity {% endtrans %} </li></ul>
+              {% else %}
+            ><a href="activity?unit={{ unit_id }}&lesson={{ lesson.id }}">
+               {% trans %} Activity {% endtrans %}
+             </a></li></ul>
+              {% endif %}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="gcb-article tab-content" role="main">
+    {% for lesson in lessons %}
+      {% if lesson.id == lesson_id %}
+
+        <div style="padding-bottom: 20px;">
+
+          <div class="gcb-aside">
+            <div class="gcb-cols">
+              <div class="gcb-col-7">
+                <h1 class="lesson_title">
+                  {{ lesson.activity_title }}
+                </h1>
+              </div>
+              <div class="gcb-col-3">
+                <!--
+                <p style="float:right; margin-top: 0px; margin-left: 10px;">
+                  <a class="gcb-button gcb-button-primary" href="{{ lesson.slides }}" target="_blank">{% trans %} Slides {% endtrans %}</a>
+                </p>
+                -->
+                <p style="float:right; margin-top: 0px;">
+                  <a class="gcb-button gcb-button-primary" href="{{ lesson.notes }}" target="_blank">{% trans %} Text Version {% endtrans %}</a>
+                </p>
+              </div>
+            </div><!-- /gcb-cols -->
+
+            <!-- <script>{{ lesson.activity }}</script> -->
+            <div style="width: 785px;" id="activityContents">
+            </div>
+
+          </div><!-- /gcb-aside -->
+
+          <div class="gcb-button-box">
+            <div class="prev-button" style="float:left; margin-top: 0px; margin-left: 40px;">
+              {% if back_button_url %}
+                <a href="{{ back_button_url }}"> {% trans %} Previous Page {% endtrans %} </a>
+              {% endif %}
+            </div>
+            <div class="next-button" style="float:right; margin-top: 0px; margin-right: 40px;">
+              {% if next_button_url %}
+                <a href="{{ next_button_url }}"> {% trans %} Next Page {% endtrans %} </a>
+              {% else %}
+                <a href="course"> {% trans %} End {% endtrans %} </a>
+              {% endif %}
+            </div>
+          </div>
+
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
